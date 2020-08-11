@@ -1,0 +1,3 @@
+[submodule "find-images"]
+	path = find-images
+	url = ./find-images
