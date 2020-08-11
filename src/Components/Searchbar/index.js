@@ -25,10 +25,9 @@ render(){
 
      return (
      
-        // <header className={style.Searchbar}>
-        <header className={style.Searchbar}>
+        <>
+        <header className={style.searchbar }>
         <form 
-        id="topbox"
         className={style.SearchForm}
         onSubmit={this.handleOnSubmit}
         >
@@ -44,12 +43,13 @@ render(){
             onChange={this.handleChange}
             className={style['SearchForm-input']}
             type="text"
-            autocomplete="off"
-            autofocus
+            autoComplete="off"
+            autoFocus
             placeholder="Search images and photos"
           />
         </form>
       </header>
+      </>
       
      )
  } 
